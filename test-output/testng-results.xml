@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="163347" started-at="2018-11-17T11:06:53Z" finished-at="2018-11-17T11:09:36Z">
+  <suite name="Default suite" duration-ms="287" started-at="2018-11-17T14:34:11Z" finished-at="2018-11-17T14:34:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="163347" started-at="2018-11-17T11:06:53Z" finished-at="2018-11-17T11:09:36Z">
-      <class name="TestAutomationTasks.Shein">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestAutomationTasks.Shein@6a41eaa2]" name="setUp" is-config="true" duration-ms="20514" started-at="2018-11-17T11:06:33Z" finished-at="2018-11-17T11:06:53Z">
+    <test name="Default test" duration-ms="287" started-at="2018-11-17T14:34:11Z" finished-at="2018-11-17T14:34:11Z">
+      <class name="Shein.SheinTestAutomationMaven.Shein">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Shein.SheinTestAutomationMaven.Shein@5622fdf]" name="setUp" is-config="true" duration-ms="11703" started-at="2018-11-17T14:33:59Z" finished-at="2018-11-17T14:34:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="invalidSignIn()[pri:0, instance:TestAutomationTasks.Shein@6a41eaa2]" name="invalidSignIn" duration-ms="38822" started-at="2018-11-17T11:06:53Z" finished-at="2018-11-17T11:07:32Z">
+        <test-method status="PASS" signature="t()[pri:0, instance:Shein.SheinTestAutomationMaven.Shein@5622fdf]" name="t" duration-ms="26" started-at="2018-11-17T14:34:11Z" finished-at="2018-11-17T14:34:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalidSignIn -->
-        <test-method status="PASS" signature="invalidSignUp()[pri:0, instance:TestAutomationTasks.Shein@6a41eaa2]" name="invalidSignUp" duration-ms="28767" started-at="2018-11-17T11:07:32Z" finished-at="2018-11-17T11:08:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidSignUp -->
-        <test-method status="PASS" signature="sheinHappyScenario()[pri:1, instance:TestAutomationTasks.Shein@6a41eaa2]" name="sheinHappyScenario" duration-ms="95661" started-at="2018-11-17T11:08:01Z" finished-at="2018-11-17T11:09:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sheinHappyScenario -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestAutomationTasks.Shein@6a41eaa2]" name="tearDown" is-config="true" duration-ms="294" started-at="2018-11-17T11:09:37Z" finished-at="2018-11-17T11:09:37Z">
+        </test-method> <!-- t -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Shein.SheinTestAutomationMaven.Shein@5622fdf]" name="tearDown" is-config="true" duration-ms="147" started-at="2018-11-17T14:34:11Z" finished-at="2018-11-17T14:34:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestAutomationTasks.Shein -->
+      </class> <!-- Shein.SheinTestAutomationMaven.Shein -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

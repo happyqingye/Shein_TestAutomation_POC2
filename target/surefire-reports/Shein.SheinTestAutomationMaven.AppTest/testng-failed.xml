@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Shein.SheinTestAutomationMaven.AppTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Shein.SheinTestAutomationMaven.Shein">
+        <methods>
+          <include name="setUp"/>
+          <include name="invalidSignUp"/>
+          <include name="tearDown"/>
+          <include name="invalidSignIn"/>
+          <include name="sheinHappyScenario"/>
+        </methods>
+      </class> <!-- Shein.SheinTestAutomationMaven.Shein -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Shein.SheinTestAutomationMaven.AppTest] -->
